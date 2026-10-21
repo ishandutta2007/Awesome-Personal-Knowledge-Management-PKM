@@ -1,6 +1,6 @@
 # Awesome-Personal-Knowledge-Management-PKM
 
-# Top Personal Knowledge Management (PKM) Tools Ecosystem
+## Top Personal Knowledge Management (PKM) Tools Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Local-First Data Ownership, Bidirectional Linking & Self-Hosted Sync*  
