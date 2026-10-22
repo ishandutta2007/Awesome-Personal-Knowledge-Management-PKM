@@ -28,7 +28,7 @@ Personal Knowledge Management (**PKM**) encompasses the systems, mental models, 
 - [✨ SaaS / Hosted Platforms](#-saas--hosted-platforms)
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
   - [🏆 Master Open-Source Comparison Table](#-master-open-source-comparison-table)
-  - [🔍 Detailed Project Profiles (Sorted by GitHub Stars)](#-detailed-project-profiles-sorted-by-github-stars)
+  - [🔍 Detailed Project Profiles (Sorted by GitHub_Stars)](#-detailed-project-profiles-sorted-by-github-stars)
 - [🧩 PKM Architectural Archetypes](#-pkm-architectural-archetypes)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [📈 Star History](#-star-history)
@@ -72,37 +72,37 @@ Open-source PKM tools empower researchers, developers, and writers with **comple
 
 ### 🏆 Master Open-Source Comparison Table
 
-The table below is **sorted in descending order by GitHub Stars**. Click on any star badge to visit the project's real-time stargazers community.
+The table below is **sorted in descending order by GitHub_Stars**. Click on any Stars_Badge to visit the project's real-time stargazers community.
 
-| 📦 Repository & Stars | 🏷️ Primary Paradigm | 📜 License | 💾 Storage Format | 🔄 Sync Architecture | ⚡ Key Highlights |
+| 📦 Repository & GitHub_Stars | 🏷️ Primary Paradigm | 📜 License | 💾 Storage Format | 🔄 Sync Architecture | ⚡ Key Highlights |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)**<br>[![GitHub stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers) | All-in-One Database & Docs | `AGPL-3.0` | SQLite / JSON / Markdown | Local-First / AppFlowy Cloud (Docker) | Leading open-source Notion alternative built on Flutter & Rust. Kanban, Grid, Calendar, and native AI integration. |
-| **[toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)**<br>[![GitHub stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social&color=white)](https://github.com/toeverything/AFFiNE/stargazers) | Canvas & Doc Hybrid | `MIT` / `MPL-2.0` | BlockSuite CRDTs / SQLite | Local-First / Self-Hostable Cloud | Unifies multimodal whiteboards, structured docs, and slides with real-time peer CRDT synchronization. |
-| **[usememos/memos](https://github.com/usememos/memos)**<br>[![GitHub stars](https://img.shields.io/github/stars/usememos/memos?style=social&color=white)](https://github.com/usememos/memos/stargazers) | Micro-Card Timeline / Journal | `MIT` | SQLite Single Container | Self-Hosted Docker / REST / gRPC | Lightweight privacy-first microblogging stream for quick daily captures, timestamps, and tag hierarchies. |
-| **[laurent22/joplin](https://github.com/laurent22/joplin)**<br>[![GitHub stars](https://img.shields.io/github/stars/laurent22/joplin?style=social&color=white)](https://github.com/laurent22/joplin/stargazers) | Notebook Hierarchy & Todo | `AGPL-3.0` | Markdown & SQLite | End-to-End Encrypted (S3 / WebDAV / Joplin Server) | Battle-tested Evernote replacement supporting desktop/mobile sync, geo-location, web clipping, and E2EE encryption. |
-| **[siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)**<br>[![GitHub stars](https://img.shields.io/github/stars/siyuan-note/siyuan?style=social&color=white)](https://github.com/siyuan-note/siyuan/stargazers) | Granular Block-Tree PKM | `AGPL-3.0` | Block-level JSON & SQLite | Local-First / WebDAV / S3 / Official Cloud | Deeply structured block-level referencing, native PDF split annotation, mind maps, and full offline functionality. |
-| **[logseq/logseq](https://github.com/logseq/logseq)**<br>[![GitHub stars](https://img.shields.io/github/stars/logseq/logseq?style=social&color=white)](https://github.com/logseq/logseq/stargazers) | Outliner & Networked Thought | `AGPL-3.0` | Plain Markdown / Org-Mode Files | Local Filesystem / Git / Logseq Sync | Bullet-tree outliner with journal-driven workflows, bidirectional page links, queries, and dynamic graph views. |
-| **[outline/outline](https://github.com/outline/outline)**<br>[![GitHub stars](https://img.shields.io/github/stars/outline/outline?style=social&color=white)](https://github.com/outline/outline/stargazers) | Collaborative Team Wiki | `BSL-1.1` | PostgreSQL & Redis | Self-Hosted Docker Compose / Managed | Beautiful, blazing-fast Markdown documentation workspace with nested hierarchies, SSO, and rich permissions. |
-| **[TriliumNext/Trilium](https://github.com/TriliumNext/Trilium)**<br>[![GitHub stars](https://img.shields.io/github/stars/TriliumNext/Trilium?style=social&color=white)](https://github.com/TriliumNext/Trilium/stargazers) | Programmable Hierarchical Tree | `AGPL-3.0` | Single SQLite File (`document.db`) | Client-Server Sync / Self-Hosted Docker | Ultimate power-user PKM with internal JS scripting, REST ETAPI, relation maps, Excalidraw, and 100k+ note scalability. |
-| **[foambubble/foam](https://github.com/foambubble/foam)**<br>[![GitHub stars](https://img.shields.io/github/stars/foambubble/foam?style=social&color=white)](https://github.com/foambubble/foam/stargazers) | VS Code Networked Workspace | `MIT` | Plain Markdown Files | Git / GitHub Version Control | Turn VS Code into a personal Roam/Obsidian environment with graph visualization, auto-complete links, and Git sync. |
-| **[Zettlr/Zettlr](https://github.com/Zettlr/Zettlr)**<br>[![GitHub stars](https://img.shields.io/github/stars/Zettlr/Zettlr?style=social&color=white)](https://github.com/Zettlr/Zettlr/stargazers) | Academic Markdown & Zettelkasten | `GPL-3.0` | Plain Markdown / BibTeX | Local Filesystem / Git / Nextcloud | Tailored for researchers and academics: tight Zotero/BibTeX integration, Pandoc citation exports, and heatmaps. |
-| **[anyproto/anytype-ts](https://github.com/anyproto/anytype-ts)**<br>[![GitHub stars](https://img.shields.io/github/stars/anyproto/anytype-ts?style=social&color=white)](https://github.com/anyproto/anytype-ts/stargazers) | Encrypted Object Knowledge Graph | `Anytype Source-Available` | Local Block Store / Any-Sync | Peer-to-Peer Local-First Encrypted | No central server holding data; cryptographically secured typed objects, relations, and offline-first mobile sync. |
-| **[TiddlyWiki/TiddlyWiki5](https://github.com/TiddlyWiki/TiddlyWiki5)**<br>[![GitHub stars](https://img.shields.io/github/stars/TiddlyWiki/TiddlyWiki5?style=social&color=white)](https://github.com/TiddlyWiki/TiddlyWiki5/stargazers) | Non-Linear Single-File Wiki | `BSD-3-Clause` | Single HTML File / Node.js | Local File / WebDAV / Git | 20+ years of durability: an entire non-linear notebook contained within a single standalone interactive HTML page. |
-| **[hedgedoc/hedgedoc](https://github.com/hedgedoc/hedgedoc)**<br>[![GitHub stars](https://img.shields.io/github/stars/hedgedoc/hedgedoc?style=social&color=white)](https://github.com/hedgedoc/hedgedoc/stargazers) | Collaborative Real-Time Markdown | `AGPL-3.0` | PostgreSQL / MariaDB | Self-Hosted Docker / WebSocket | Real-time collaborative Markdown editor (CodiMD fork) with slide presentation mode and permission sharing. |
-| **[dendronhq/dendron](https://github.com/dendronhq/dendron)**<br>[![GitHub stars](https://img.shields.io/github/stars/dendronhq/dendron?style=social&color=white)](https://github.com/dendronhq/dendron/stargazers) | Hierarchical Markdown Tree | `Apache-2.0` | Plain Markdown Files | Git / Multi-Vault Sync | Structured hierarchical schema (`tech.lang.rust`) combining folder hierarchies with flexible graph linkages. |
-| **[silverbulletmd/silverbullet](https://github.com/silverbulletmd/silverbullet)**<br>[![GitHub stars](https://img.shields.io/github/stars/silverbulletmd/silverbullet?style=social&color=white)](https://github.com/silverbulletmd/silverbullet/stargazers) | Extensible PWA Knowledge Base | `MIT` | Plain Markdown Files | Self-Hosted Server / Offline PWA | Web-based Markdown notebook powered by Lua scripting, dynamic live queries (`template()`), and instant offline PWA. |
-| **[gsantner/markor](https://github.com/gsantner/markor)**<br>[![GitHub stars](https://img.shields.io/github/stars/gsantner/markor?style=social&color=white)](https://github.com/gsantner/markor/stargazers) | Mobile Text & Todo Suite | `Apache-2.0` | Plain Text / Markdown / Todo.txt | Local Storage / Syncthing / Nextcloud | Privacy-focused Android text editor with syntax highlighting, quick capture widgets, and todo.txt task management. |
-| **[AthensResearch/athens](https://github.com/AthensResearch/athens)**<br>[![GitHub stars](https://img.shields.io/github/stars/AthensResearch/athens?style=social&color=white)](https://github.com/AthensResearch/athens/stargazers) | Collaborative Graph Outliner | `MIT` | Datascript / Flat Files | Local / Collaborative Server | Open-source networked graph outliner built in Clojure/ClojureScript for connected knowledge navigation. |
-| **[org-roam/org-roam](https://github.com/org-roam/org-roam)**<br>[![GitHub stars](https://img.shields.io/github/stars/org-roam/org-roam?style=social&color=white)](https://github.com/org-roam/org-roam/stargazers) | Emacs Networked Thought | `GPL-3.0` | Org-mode Files & SQLite Index | Local Filesystem / Git | Non-linear Emacs Zettelkasten integrating seamlessly with Org-mode, Org-agenda, LaTeX, and graphviz visualizers. |
-| **[Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie)**<br>[![GitHub stars](https://img.shields.io/github/stars/Smaug6739/Alexandrie?style=social&color=white)](https://github.com/Smaug6739/Alexandrie/stargazers) | Technical Team Documentation | `MIT` | S3 Storage & PostgreSQL | Self-Hosted Docker / OIDC SSO | Technical writing platform with CodeMirror 6, LaTeX, Mermaid diagrams, multi-tenant RBAC, and local S3 backup. |
-| **[dullage/flatnotes](https://github.com/dullage/flatnotes)**<br>[![GitHub stars](https://img.shields.io/github/stars/dullage/flatnotes?style=social&color=white)](https://github.com/dullage/flatnotes/stargazers) | Minimal Flat Markdown Viewer | `MIT` | Pure Flat Folder of `.md` Files | Self-Hosted Docker / Direct FS | Zero database overhead: a clean web interface that indexes and edits a simple folder of Markdown files directly. |
+| **[AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers) | All-in-One Database & Docs | `AGPL-3.0` | SQLite / JSON / Markdown | Local-First / AppFlowy Cloud (Docker) | Leading open-source Notion alternative built on Flutter & Rust. Kanban, Grid, Calendar, and native AI integration. |
+| **[toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social&color=white)](https://github.com/toeverything/AFFiNE/stargazers) | Canvas & Doc Hybrid | `MIT` / `MPL-2.0` | BlockSuite CRDTs / SQLite | Local-First / Self-Hostable Cloud | Unifies multimodal whiteboards, structured docs, and slides with real-time peer CRDT synchronization. |
+| **[usememos/memos](https://github.com/usememos/memos)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/usememos/memos?style=social&color=white)](https://github.com/usememos/memos/stargazers) | Micro-Card Timeline / Journal | `MIT` | SQLite Single Container | Self-Hosted Docker / REST / gRPC | Lightweight privacy-first microblogging stream for quick daily captures, timestamps, and tag hierarchies. |
+| **[laurent22/joplin](https://github.com/laurent22/joplin)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/laurent22/joplin?style=social&color=white)](https://github.com/laurent22/joplin/stargazers) | Notebook Hierarchy & Todo | `AGPL-3.0` | Markdown & SQLite | End-to-End Encrypted (S3 / WebDAV / Joplin Server) | Battle-tested Evernote replacement supporting desktop/mobile sync, geo-location, web clipping, and E2EE encryption. |
+| **[siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/siyuan-note/siyuan?style=social&color=white)](https://github.com/siyuan-note/siyuan/stargazers) | Granular Block-Tree PKM | `AGPL-3.0` | Block-level JSON & SQLite | Local-First / WebDAV / S3 / Official Cloud | Deeply structured block-level referencing, native PDF split annotation, mind maps, and full offline functionality. |
+| **[logseq/logseq](https://github.com/logseq/logseq)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/logseq/logseq?style=social&color=white)](https://github.com/logseq/logseq/stargazers) | Outliner & Networked Thought | `AGPL-3.0` | Plain Markdown / Org-Mode Files | Local Filesystem / Git / Logseq Sync | Bullet-tree outliner with journal-driven workflows, bidirectional page links, queries, and dynamic graph views. |
+| **[outline/outline](https://github.com/outline/outline)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/outline/outline?style=social&color=white)](https://github.com/outline/outline/stargazers) | Collaborative Team Wiki | `BSL-1.1` | PostgreSQL & Redis | Self-Hosted Docker Compose / Managed | Beautiful, blazing-fast Markdown documentation workspace with nested hierarchies, SSO, and rich permissions. |
+| **[TriliumNext/Trilium](https://github.com/TriliumNext/Trilium)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/TriliumNext/Trilium?style=social&color=white)](https://github.com/TriliumNext/Trilium/stargazers) | Programmable Hierarchical Tree | `AGPL-3.0` | Single SQLite File (`document.db`) | Client-Server Sync / Self-Hosted Docker | Ultimate power-user PKM with internal JS scripting, REST ETAPI, relation maps, Excalidraw, and 100k+ note scalability. |
+| **[foambubble/foam](https://github.com/foambubble/foam)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/foambubble/foam?style=social&color=white)](https://github.com/foambubble/foam/stargazers) | VS Code Networked Workspace | `MIT` | Plain Markdown Files | Git / GitHub Version Control | Turn VS Code into a personal Roam/Obsidian environment with graph visualization, auto-complete links, and Git sync. |
+| **[Zettlr/Zettlr](https://github.com/Zettlr/Zettlr)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/Zettlr/Zettlr?style=social&color=white)](https://github.com/Zettlr/Zettlr/stargazers) | Academic Markdown & Zettelkasten | `GPL-3.0` | Plain Markdown / BibTeX | Local Filesystem / Git / Nextcloud | Tailored for researchers and academics: tight Zotero/BibTeX integration, Pandoc citation exports, and heatmaps. |
+| **[anyproto/anytype-ts](https://github.com/anyproto/anytype-ts)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/anyproto/anytype-ts?style=social&color=white)](https://github.com/anyproto/anytype-ts/stargazers) | Encrypted Object Knowledge Graph | `Anytype Source-Available` | Local Block Store / Any-Sync | Peer-to-Peer Local-First Encrypted | No central server holding data; cryptographically secured typed objects, relations, and offline-first mobile sync. |
+| **[TiddlyWiki/TiddlyWiki5](https://github.com/TiddlyWiki/TiddlyWiki5)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/TiddlyWiki/TiddlyWiki5?style=social&color=white)](https://github.com/TiddlyWiki/TiddlyWiki5/stargazers) | Non-Linear Single-File Wiki | `BSD-3-Clause` | Single HTML File / Node.js | Local File / WebDAV / Git | 20+ years of durability: an entire non-linear notebook contained within a single standalone interactive HTML page. |
+| **[hedgedoc/hedgedoc](https://github.com/hedgedoc/hedgedoc)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/hedgedoc/hedgedoc?style=social&color=white)](https://github.com/hedgedoc/hedgedoc/stargazers) | Collaborative Real-Time Markdown | `AGPL-3.0` | PostgreSQL / MariaDB | Self-Hosted Docker / WebSocket | Real-time collaborative Markdown editor (CodiMD fork) with slide presentation mode and permission sharing. |
+| **[dendronhq/dendron](https://github.com/dendronhq/dendron)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/dendronhq/dendron?style=social&color=white)](https://github.com/dendronhq/dendron/stargazers) | Hierarchical Markdown Tree | `Apache-2.0` | Plain Markdown Files | Git / Multi-Vault Sync | Structured hierarchical schema (`tech.lang.rust`) combining folder hierarchies with flexible graph linkages. |
+| **[silverbulletmd/silverbullet](https://github.com/silverbulletmd/silverbullet)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/silverbulletmd/silverbullet?style=social&color=white)](https://github.com/silverbulletmd/silverbullet/stargazers) | Extensible PWA Knowledge Base | `MIT` | Plain Markdown Files | Self-Hosted Server / Offline PWA | Web-based Markdown notebook powered by Lua scripting, dynamic live queries (`template()`), and instant offline PWA. |
+| **[gsantner/markor](https://github.com/gsantner/markor)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/gsantner/markor?style=social&color=white)](https://github.com/gsantner/markor/stargazers) | Mobile Text & Todo Suite | `Apache-2.0` | Plain Text / Markdown / Todo.txt | Local Storage / Syncthing / Nextcloud | Privacy-focused Android text editor with syntax highlighting, quick capture widgets, and todo.txt task management. |
+| **[AthensResearch/athens](https://github.com/AthensResearch/athens)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/AthensResearch/athens?style=social&color=white)](https://github.com/AthensResearch/athens/stargazers) | Collaborative Graph Outliner | `MIT` | Datascript / Flat Files | Local / Collaborative Server | Open-source networked graph outliner built in Clojure/ClojureScript for connected knowledge navigation. |
+| **[org-roam/org-roam](https://github.com/org-roam/org-roam)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/org-roam/org-roam?style=social&color=white)](https://github.com/org-roam/org-roam/stargazers) | Emacs Networked Thought | `GPL-3.0` | Org-mode Files & SQLite Index | Local Filesystem / Git | Non-linear Emacs Zettelkasten integrating seamlessly with Org-mode, Org-agenda, LaTeX, and graphviz visualizers. |
+| **[Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/Smaug6739/Alexandrie?style=social&color=white)](https://github.com/Smaug6739/Alexandrie/stargazers) | Technical Team Documentation | `MIT` | S3 Storage & PostgreSQL | Self-Hosted Docker / OIDC SSO | Technical writing platform with CodeMirror 6, LaTeX, Mermaid diagrams, multi-tenant RBAC, and local S3 backup. |
+| **[dullage/flatnotes](https://github.com/dullage/flatnotes)**<br>[![GitHub_Stars](https://img.shields.io/github/stars/dullage/flatnotes?style=social&color=white)](https://github.com/dullage/flatnotes/stargazers) | Minimal Flat Markdown Viewer | `MIT` | Pure Flat Folder of `.md` Files | Self-Hosted Docker / Direct FS | Zero database overhead: a clean web interface that indexes and edits a simple folder of Markdown files directly. |
 
 ---
 
-### 🔍 Detailed Project Profiles (Sorted by GitHub Stars)
+### 🔍 Detailed Project Profiles (Sorted by GitHub_Stars)
 
 #### 1. 🚀 [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)
-[![GitHub stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers)
 - **Architecture**: AGPL-3.0, Flutter front-end with a high-performance Rust core engine.
 - **Capabilities**: The leading open-source Notion replacement. Unifies rich text documents, relational database tables (Grid, Kanban, and Calendar views), and task trackers in one application.
 - **Data & Sync**: Local-first storage on your disk; optional self-hosted **AppFlowy Cloud** via Docker Compose (PostgreSQL, Redis, and MinIO/S3).
@@ -110,7 +110,7 @@ The table below is **sorted in descending order by GitHub Stars**. Click on any 
 - **Best For**: Teams and individuals seeking a modern Notion interface with 100% data ownership.
 
 #### 2. 🎨 [AFFiNE](https://github.com/toeverything/AFFiNE)
-[![GitHub stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social&color=white)](https://github.com/toeverything/AFFiNE/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social&color=white)](https://github.com/toeverything/AFFiNE/stargazers)
 - **Architecture**: MIT / MPL-2.0, TypeScript, WebAssembly, and Rust.
 - **Capabilities**: Unifies structured Markdown documents, spatial whiteboard canvases (like Miro), and presentation slides on a single unified canvas.
 - **Data & Sync**: Local-first architecture utilizing BlockSuite CRDTs; syncs peer-to-peer or via self-hosted Docker servers.
@@ -118,7 +118,7 @@ The table below is **sorted in descending order by GitHub Stars**. Click on any 
 - **Best For**: Visual thinkers, designers, and project managers synthesizing brainstorms into structured docs.
 
 #### 3. ⏱️ [Memos](https://github.com/usememos/memos)
-[![GitHub stars](https://img.shields.io/github/stars/usememos/memos?style=social&color=white)](https://github.com/usememos/memos/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/usememos/memos?style=social&color=white)](https://github.com/usememos/memos/stargazers)
 - **Architecture**: MIT license, Go backend with a modern React/TypeScript frontend.
 - **Capabilities**: A lightweight, self-hosted microblogging feed designed for short timestamped thoughts, quick bookmarks, and daily logs.
 - **Data & Sync**: Packaged into a single ultra-lightweight Docker container backed by SQLite. Includes REST and gRPC APIs for automated capture.
@@ -126,7 +126,7 @@ The table below is **sorted in descending order by GitHub Stars**. Click on any 
 - **Best For**: Minimalists wanting frictionless, timestamped daily capture with zero operational bloat.
 
 #### 4. 📱 [Joplin](https://github.com/laurent22/joplin)
-[![GitHub stars](https://img.shields.io/github/stars/laurent22/joplin?style=social&color=white)](https://github.com/laurent22/joplin/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/laurent22/joplin?style=social&color=white)](https://github.com/laurent22/joplin/stargazers)
 - **Architecture**: AGPL-3.0, Electron desktop, React Native mobile, and Node.js CLI.
 - **Capabilities**: The most established open-source Evernote replacement with hierarchical notebook trees, tagging, task checklists, and a powerful browser web clipper.
 - **Data & Sync**: Full End-to-End Encryption (E2EE) with sync support across Nextcloud, Dropbox, WebDAV, OneDrive, and self-hosted Joplin Server.
@@ -134,7 +134,7 @@ The table below is **sorted in descending order by GitHub Stars**. Click on any 
 - **Best For**: Users needing rock-solid multi-device mobile and desktop note synchronization with guaranteed encryption.
 
 #### 5. 🧱 [SiYuan](https://github.com/siyuan-note/siyuan)
-[![GitHub stars](https://img.shields.io/github/stars/siyuan-note/siyuan?style=social&color=white)](https://github.com/siyuan-note/siyuan/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/siyuan-note/siyuan?style=social&color=white)](https://github.com/siyuan-note/siyuan/stargazers)
 - **Architecture**: AGPL-3.0, Go backend and TypeScript frontend.
 - **Capabilities**: Privacy-first, local-first block-level knowledge workspace. Every single paragraph, header, and list item is an addressable block. Native PDF split-screen annotation and flashcard spaced repetition.
 - **Data & Sync**: Stores data in structured JSON block trees backed by SQLite. Supports WebDAV, S3, and encrypted self-hosting.
@@ -142,7 +142,7 @@ The table below is **sorted in descending order by GitHub Stars**. Click on any 
 - **Best For**: Researchers and students requiring deep PDF citation, structured block embedding, and bilingual support.
 
 #### 6. 🕸️ [Logseq](https://github.com/logseq/logseq)
-[![GitHub stars](https://img.shields.io/github/stars/logseq/logseq?style=social&color=white)](https://github.com/logseq/logseq/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/logseq/logseq?style=social&color=white)](https://github.com/logseq/logseq/stargazers)
 - **Architecture**: AGPL-3.0, ClojureScript and Electron.
 - **Capabilities**: Local-first, privacy-focused outliner. Combines a daily journal workflow, bidirectional page/block references (`[[Page]]`, `((block-ref))`), task tracking with scheduled deadlines, and dynamic query builders.
 - **Data & Sync**: Directly reads and writes plain Markdown (or Org-mode) files on your local filesystem.
@@ -150,7 +150,7 @@ The table below is **sorted in descending order by GitHub Stars**. Click on any 
 - **Best For**: Nonlinear thinkers, developers, and academics who want an open-source, local-first Roam alternative.
 
 #### 7. 🏢 [Outline](https://github.com/outline/outline)
-[![GitHub stars](https://img.shields.io/github/stars/outline/outline?style=social&color=white)](https://github.com/outline/outline/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/outline/outline?style=social&color=white)](https://github.com/outline/outline/stargazers)
 - **Architecture**: Business Source License (BSL 1.1) / MIT-licensed clients, Node.js, React.
 - **Capabilities**: Blazing-fast, modern collaborative documentation knowledge base for teams. Real-time collaborative Markdown editing, rich integrations (Slack, Figma, Linear), and enterprise SSO.
 - **Data & Sync**: Self-hostable using Docker with PostgreSQL, Redis, and S3-compatible file storage.
@@ -158,7 +158,7 @@ The table below is **sorted in descending order by GitHub Stars**. Click on any 
 - **Best For**: Startups, engineering teams, and organizations seeking an internal documentation portal.
 
 #### 8. 🌳 [Trilium / TriliumNext](https://github.com/TriliumNext/Trilium)
-[![GitHub stars](https://img.shields.io/github/stars/TriliumNext/Trilium?style=social&color=white)](https://github.com/TriliumNext/Trilium/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/TriliumNext/Trilium?style=social&color=white)](https://github.com/TriliumNext/Trilium/stargazers)
 - **Architecture**: AGPL-3.0, Node.js and SQLite. Actively maintained by the TriliumNext community.
 - **Capabilities**: Hyper-programmable hierarchical knowledge base. Supports embedded JavaScript execution, automated note generation, REST ETAPI, relation maps, Excalidraw, mind maps, and full-text search.
 - **Data & Sync**: Scalable single-file SQLite database capable of storing over 100,000 notes smoothly. Includes automated sync between desktop client and self-hosted server.
@@ -166,7 +166,7 @@ The table below is **sorted in descending order by GitHub Stars**. Click on any 
 - **Best For**: Developers and engineers seeking an infinitely scriptable and automated personal knowledge system.
 
 #### 9. 🧼 [Foam](https://github.com/foambubble/foam)
-[![GitHub stars](https://img.shields.io/github/stars/foambubble/foam?style=social&color=white)](https://github.com/foambubble/foam/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/foambubble/foam?style=social&color=white)](https://github.com/foambubble/foam/stargazers)
 - **Architecture**: MIT license, VS Code Extension Ecosystem.
 - **Capabilities**: Transform Visual Studio Code into an extensible personal knowledge management suite. Generates interactive graph visualizations, autocompletes wikilinks, and generates backlinks.
 - **Data & Sync**: Operates entirely on standard Markdown files version-controlled with Git.
@@ -174,7 +174,7 @@ The table below is **sorted in descending order by GitHub Stars**. Click on any 
 - **Best For**: Programmers and technical writers who spend their entire workday inside VS Code.
 
 #### 10. 🎓 [Zettlr](https://github.com/Zettlr/Zettlr)
-[![GitHub stars](https://img.shields.io/github/stars/Zettlr/Zettlr?style=social&color=white)](https://github.com/Zettlr/Zettlr/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/Zettlr/Zettlr?style=social&color=white)](https://github.com/Zettlr/Zettlr/stargazers)
 - **Architecture**: GPL-3.0, Electron, TypeScript, and CodeMirror.
 - **Capabilities**: The academic publication workbench. Features native integration with Zotero/JabRef, BibTeX citation auto-completion, Pandoc export pipeline (PDF, DOCX, LaTeX), and Zettelkasten cross-linking.
 - **Data & Sync**: Direct local filesystem access with plain `.md` files.
@@ -182,7 +182,7 @@ The table below is **sorted in descending order by GitHub Stars**. Click on any 
 - **Best For**: Academics, PhD candidates, and researchers producing thesis work and peer-reviewed literature.
 
 #### 11. 🛡️ [Anytype](https://github.com/anyproto/anytype-ts)
-[![GitHub stars](https://img.shields.io/github/stars/anyproto/anytype-ts?style=social&color=white)](https://github.com/anyproto/anytype-ts/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/anyproto/anytype-ts?style=social&color=white)](https://github.com/anyproto/anytype-ts/stargazers)
 - **Architecture**: Anytype Source-Available License, Go (anytype-heart) and TypeScript/Electron.
 - **Capabilities**: Encrypted, local-first object workspace. Everything is an object with typed properties and relationships. Peer-to-peer synchronization powered by the open Any-Sync protocol.
 - **Data & Sync**: High security with local encryption keys; no central authority can inspect user documents.
@@ -190,7 +190,7 @@ The table below is **sorted in descending order by GitHub Stars**. Click on any 
 - **Best For**: Privacy-maximalists and web3 advocates wanting encrypted local-first data syncing across devices.
 
 #### 12. 📜 [TiddlyWiki5](https://github.com/TiddlyWiki/TiddlyWiki5)
-[![GitHub stars](https://img.shields.io/github/stars/TiddlyWiki/TiddlyWiki5?style=social&color=white)](https://github.com/TiddlyWiki/TiddlyWiki5/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/TiddlyWiki/TiddlyWiki5?style=social&color=white)](https://github.com/TiddlyWiki/TiddlyWiki5/stargazers)
 - **Architecture**: BSD-3-Clause, pure JavaScript and HTML.
 - **Capabilities**: The classic non-linear interactive notebook. An entire personal wiki engine, storage system, and plugin architecture encapsulated inside a single portable `.html` file.
 - **Data & Sync**: Works in any browser without requiring an internet connection or backend server; syncable via WebDAV, Git, or Node.js.
@@ -198,7 +198,7 @@ The table below is **sorted in descending order by GitHub Stars**. Click on any 
 - **Best For**: Archivists and longevity advocates seeking notes that will remain readable 30 years into the future.
 
 #### 13. 🤝 [HedgeDoc](https://github.com/hedgedoc/hedgedoc)
-[![GitHub stars](https://img.shields.io/github/stars/hedgedoc/hedgedoc?style=social&color=white)](https://github.com/hedgedoc/hedgedoc/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/hedgedoc/hedgedoc?style=social&color=white)](https://github.com/hedgedoc/hedgedoc/stargazers)
 - **Architecture**: AGPL-3.0, Node.js, and WebSocket.
 - **Capabilities**: Real-time collaborative Markdown editing platform (community successor to CodiMD). Features live preview, slide mode, graphviz rendering, and granular permission controls.
 - **Data & Sync**: Self-hosted Docker service backed by PostgreSQL or MariaDB.
@@ -206,7 +206,7 @@ The table below is **sorted in descending order by GitHub Stars**. Click on any 
 - **Best For**: Collaborative note sessions, meeting minutes, and technical team workshops.
 
 #### 14. 🌲 [Dendron](https://github.com/dendronhq/dendron)
-[![GitHub stars](https://img.shields.io/github/stars/dendronhq/dendron?style=social&color=white)](https://github.com/dendronhq/dendron/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/dendronhq/dendron?style=social&color=white)](https://github.com/dendronhq/dendron/stargazers)
 - **Architecture**: Apache-2.0, VS Code extension ecosystem.
 - **Capabilities**: Hierarchical-first knowledge management. Enforces structured dot-notated hierarchies (e.g., `dev.languages.python`) while maintaining flexible graph links and multi-vault publishing.
 - **Data & Sync**: Plain Markdown files with YAML frontmatter synced via Git.
@@ -214,7 +214,7 @@ The table below is **sorted in descending order by GitHub Stars**. Click on any 
 - **Best For**: Engineers who prioritize structured hierarchical taxonomy alongside graph search.
 
 #### 15. ⚡ [SilverBullet](https://github.com/silverbulletmd/silverbullet)
-[![GitHub stars](https://img.shields.io/github/stars/silverbulletmd/silverbullet?style=social&color=white)](https://github.com/silverbulletmd/silverbullet/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/silverbulletmd/silverbullet?style=social&color=white)](https://github.com/silverbulletmd/silverbullet/stargazers)
 - **Architecture**: MIT license, TypeScript, and Deno.
 - **Capabilities**: An extensible, malleable personal knowledge base. Pages are stored as plain Markdown, enhanced with client-side Lua scripts, interactive buttons, and SQL-like live template queries.
 - **Data & Sync**: Runs as a lightweight Deno server or offline PWA caching documents directly in browser storage.
@@ -222,7 +222,7 @@ The table below is **sorted in descending order by GitHub Stars**. Click on any 
 - **Best For**: Hackers and tinkerers wanting a lightweight, keyboard-driven Markdown notebook accessible everywhere.
 
 #### 16. 📱 [Markor](https://github.com/gsantner/markor)
-[![GitHub stars](https://img.shields.io/github/stars/gsantner/markor?style=social&color=white)](https://github.com/gsantner/markor/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/gsantner/markor?style=social&color=white)](https://github.com/gsantner/markor/stargazers)
 - **Architecture**: Apache-2.0, native Android (Java).
 - **Capabilities**: Privacy-focused offline mobile text editor supporting Markdown, `todo.txt`, and plain text. Quick-capture home-screen widgets and voice memo transcription.
 - **Data & Sync**: Saves files directly to external mobile storage; integrates seamlessly with Syncthing, Nextcloud, or Git.
@@ -230,7 +230,7 @@ The table below is **sorted in descending order by GitHub Stars**. Click on any 
 - **Best For**: Android users looking for an offline, tracker-free quick capture tool for their local-first vault.
 
 #### 17. 🏛️ [Athens](https://github.com/AthensResearch/athens)
-[![GitHub stars](https://img.shields.io/github/stars/AthensResearch/athens?style=social&color=white)](https://github.com/AthensResearch/athens/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/AthensResearch/athens?style=social&color=white)](https://github.com/AthensResearch/athens/stargazers)
 - **Architecture**: MIT license, Clojure and Datascript.
 - **Capabilities**: Open-source, collaborative networked thought outliner backed by Y Combinator (W21).
 - **Data & Sync**: Local-first or self-hosted collaborative server.
@@ -238,7 +238,7 @@ The table below is **sorted in descending order by GitHub Stars**. Click on any 
 - **Best For**: Clojure enthusiasts and outliner researchers studying networked database architectures.
 
 #### 18. 🧙 [Org-Roam](https://github.com/org-roam/org-roam)
-[![GitHub stars](https://img.shields.io/github/stars/org-roam/org-roam?style=social&color=white)](https://github.com/org-roam/org-roam/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/org-roam/org-roam?style=social&color=white)](https://github.com/org-roam/org-roam/stargazers)
 - **Architecture**: GPL-3.0, Emacs Lisp and SQLite.
 - **Capabilities**: Brings the full power of Roam-style networked thought to GNU Emacs. Indexes Org-mode files into a fast SQLite relational database for instantaneous backlink lookups and visual graph exports.
 - **Data & Sync**: Plain `.org` text files versioned with Git.
@@ -246,7 +246,7 @@ The table below is **sorted in descending order by GitHub Stars**. Click on any 
 - **Best For**: Dedicated Emacs users desiring total control over their second brain and task agendas.
 
 #### 19. 📚 [Alexandrie](https://github.com/Smaug6739/Alexandrie)
-[![GitHub stars](https://img.shields.io/github/stars/Smaug6739/Alexandrie?style=social&color=white)](https://github.com/Smaug6739/Alexandrie/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/Smaug6739/Alexandrie?style=social&color=white)](https://github.com/Smaug6739/Alexandrie/stargazers)
 - **Architecture**: MIT license, Docker, CodeMirror 6, and Rust/Node.
 - **Capabilities**: Self-hosted technical documentation suite and Notion/Confluence alternative. Features LaTeX rendering, interactive checkboxes, speech-to-text, Kanban boards, and multi-tenant teams with OIDC SSO.
 - **Data & Sync**: Deploys in one command; stores attachments in S3-compatible backends with PostgreSQL metadata.
@@ -254,7 +254,7 @@ The table below is **sorted in descending order by GitHub Stars**. Click on any 
 - **Best For**: Technical organizations needing self-hosted documentation with enterprise authentication.
 
 #### 20. 📄 [Flatnotes](https://github.com/dullage/flatnotes)
-[![GitHub stars](https://img.shields.io/github/stars/dullage/flatnotes?style=social&color=white)](https://github.com/dullage/flatnotes/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/dullage/flatnotes?style=social&color=white)](https://github.com/dullage/flatnotes/stargazers)
 - **Architecture**: MIT license, Python, Vue.js, and Docker.
 - **Capabilities**: A database-less, minimalist web interface for a flat directory of Markdown files. Offers full-text search, raw text editing, and clean previewing without any underlying database dependency.
 - **Data & Sync**: Zero lock-in; directly reads and edits the folder on host storage.
@@ -333,3 +333,12 @@ If this curated personal knowledge management directory saved you hours of resea
 <p align="center">
   <b>Built with ❤️ for researchers, builders, writers, and second-brain explorers worldwide.</b>
 </p>
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Personal-Knowledge-Management-PKM&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Personal-Knowledge-Management-PKM_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Personal-Knowledge-Management-PKM_growth.svg">
+  </picture>
+</a>
